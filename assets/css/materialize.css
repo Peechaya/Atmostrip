@@ -10471,7 +10471,7 @@ footer a {
 
 /* line 47, ../sass/materialize.scss */
 header {
-  height: 420px;
+  height: auto;
   overflow: hidden;
 }
 

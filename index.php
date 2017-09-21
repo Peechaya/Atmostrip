@@ -107,7 +107,7 @@
 
 </header>
 
-<section id="apps" class="primary-color-bg hide-on-small-only">
+<section id="apps" class="primary-color-bg hide-on-med-and-down">
     <div class="container">
      <img src="assets/img/google-store.png" style="margin-top: 27px; margin-right: 20px;"> <img src="assets/img/apple-store.png" style="margin-top: 30px;">
      <!-- <img src="assets/img/mascottes-app.png" class="right responsive-img" style="width: 280px; position: absolute; top: 455px; right: 20%;"> -->
@@ -190,7 +190,7 @@
 <h2>Aléatoire <i class="material-icons">refresh</i></h2>
 
       <div class="row">
-        <div class="col l2 s6 m6">
+        <div class="col l2 s6 m4">
           <div class="card hoverable">
             <div class="card-image">
               <img src="assets/img/comic.jpg">
@@ -205,7 +205,7 @@
           </div>
         </div>
 
-        <div class="col l2 s6 m6">
+        <div class="col l2 s6 m4">
           <div class="card hoverable">
             <div class="card-image">
               <img src="assets/img/comic-2.jpg">
@@ -220,7 +220,7 @@
           </div>
         </div>
 
-        <div class="col l2 s6 m6">
+        <div class="col l2 s6 m4">
           <div class="card hoverable">
             <div class="card-image">
               <img src="assets/img/comic-3.jpg">
@@ -235,7 +235,7 @@
           </div>
         </div>
 
-        <div class="col l2 s6 m6">
+        <div class="col l2 s6 m4">
           <div class="card hoverable">
             <div class="card-image">
               <img src="assets/img/comic-4.jpg">
@@ -250,7 +250,7 @@
           </div>
         </div>
 
-        <div class="col l2 s6 m6">
+        <div class="col l2 s6 m4">
           <div class="card hoverable">
             <div class="card-image">
               <img src="assets/img/comic-5.jpg">
@@ -265,7 +265,7 @@
           </div>
         </div>
 
-        <div class="col l2 s6 m6">
+        <div class="col l2 s6 m4">
           <div class="card hoverable">
             <div class="card-image">
               <img src="assets/img/comic-6.jpg">
