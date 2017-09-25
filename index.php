@@ -1,28 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <!--Import Google Icon Font-->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Lato" rel="stylesheet">
-
-  <!--Import materialize.css-->
-  <link type="text/css" rel="stylesheet" href="assets/css/materialize.css"  media="screen,projection"/>
-  <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?rd5re8">
-
-  <!--Let browser know website is optimized for mobile-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <!--Import jQuery before materialize.js-->
-  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <script type="text/javascript" src="assets/js/bin/materialize.min.js"></script>
-
-  <script crossorigin src="https://unpkg.com/react@15/dist/react.min.js"></script>
-<script crossorigin src="https://unpkg.com/react-dom@15/dist/react-dom.min.js"></script>
-</head>
-
-<body>
-
-
+<?php include('header.php'); ?>
 
 <header>
   <div class="navbar-fixed">
@@ -66,7 +42,7 @@
      <div class="col s6"><div class="left-align" style="margin-top: 30%;">
        <h2>The Red King</h2>
        <p class="author">Par Heylenne</p>
-     <p class="white-text synopsis-slider">Un ado perturbé voit sa vie basculer après que d'étranges créatures se soient introduits chez lui...</p>
+     <p class="white-text synopsis-slider">Un ado perturbé voit sa vie basculer après que d'étranges créatures se soient introduites chez lui...</p>
 
      <a class="btn waves-light black white-text waves-effect">En lire plus</a>
      </div>
@@ -186,102 +162,107 @@
 <div class="gap"></div>
 
 <section id="random">
-  <div class="container">
-<h2>Aléatoire <i class="material-icons">refresh</i></h2>
+    <div class="parallax-container">
+     <div class="parallax"><img src="assets/img/bg-random.jpg"></div>
+     <div class="container">
+       <h2>Aléatoire <i class="material-icons">refresh</i></h2>
 
-      <div class="row">
-        <div class="col l2 s6 m4">
-          <div class="card hoverable">
-            <div class="card-image">
-              <img src="assets/img/comic.jpg">
+             <div class="row">
+               <div class="col l2 s6 m4">
+                 <div class="card hoverable">
+                   <div class="card-image">
+                     <img src="assets/img/comic.jpg">
 
-              <a class="btn-floating halfway-fab waves-effect waves-light secondary-color-bg hide-on-small-only"><i class="material-icons">favorite</i></a>
-            </div>
-            <div class="card-content">
-              <p class="title-release">Kamikaze</p>
-              <p class="author-release">TeamKamikaze</p>
-                <div class="chip chip-action">Action</div>
-            </div>
-          </div>
-        </div>
+                     <a class="btn-floating halfway-fab waves-effect waves-light secondary-color-bg hide-on-small-only"><i class="material-icons">favorite</i></a>
+                   </div>
+                   <div class="card-content">
+                     <p class="title-release">Kamikaze</p>
+                     <p class="author-release">TeamKamikaze</p>
+                       <div class="chip chip-action">Action</div>
+                   </div>
+                 </div>
+               </div>
 
-        <div class="col l2 s6 m4">
-          <div class="card hoverable">
-            <div class="card-image">
-              <img src="assets/img/comic-2.jpg">
+               <div class="col l2 s6 m4">
+                 <div class="card hoverable">
+                   <div class="card-image">
+                     <img src="assets/img/comic-2.jpg">
 
-              <a class="btn-floating halfway-fab waves-effect waves-light secondary-color-bg hide-on-small-only"><i class="material-icons">favorite</i></a>
-            </div>
-            <div class="card-content">
-              <p class="title-release">The Inheritors</p>
-              <p class="author-release">Jandruff</p>
-                <div class="chip chip-sciencefiction">Science-Fiction</div>
-            </div>
-          </div>
-        </div>
+                     <a class="btn-floating halfway-fab waves-effect waves-light secondary-color-bg hide-on-small-only"><i class="material-icons">favorite</i></a>
+                   </div>
+                   <div class="card-content">
+                     <p class="title-release">The Inheritors</p>
+                     <p class="author-release">Jandruff</p>
+                       <div class="chip chip-sciencefiction">Science-Fiction</div>
+                   </div>
+                 </div>
+               </div>
 
-        <div class="col l2 s6 m4">
-          <div class="card hoverable">
-            <div class="card-image">
-              <img src="assets/img/comic-3.jpg">
+               <div class="col l2 s6 m4">
+                 <div class="card hoverable">
+                   <div class="card-image">
+                     <img src="assets/img/comic-3.jpg">
 
-              <a class="btn-floating halfway-fab waves-effect waves-light secondary-color-bg hide-on-small-only"><i class="material-icons">favorite</i></a>
-            </div>
-            <div class="card-content">
-              <p class="title-release">TRY.AGAIN</p>
-              <p class="author-release">v-0-3</p>
-                <div class="chip chip-drama">Drame</div>
-            </div>
-          </div>
-        </div>
+                     <a class="btn-floating halfway-fab waves-effect waves-light secondary-color-bg hide-on-small-only"><i class="material-icons">favorite</i></a>
+                   </div>
+                   <div class="card-content">
+                     <p class="title-release">TRY.AGAIN</p>
+                     <p class="author-release">v-0-3</p>
+                       <div class="chip chip-drama">Drame</div>
+                   </div>
+                 </div>
+               </div>
 
-        <div class="col l2 s6 m4">
-          <div class="card hoverable">
-            <div class="card-image">
-              <img src="assets/img/comic-4.jpg">
+               <div class="col l2 s6 m4">
+                 <div class="card hoverable">
+                   <div class="card-image">
+                     <img src="assets/img/comic-4.jpg">
 
-              <a class="btn-floating halfway-fab waves-effect waves-light secondary-color-bg hide-on-small-only"><i class="material-icons">favorite</i></a>
-            </div>
-            <div class="card-content">
-              <p class="title-release">Movie Cat</p>
-              <p class="author-release">James Chapman</p>
-                <div class="chip chip-comedy">Comédie</div>
-            </div>
-          </div>
-        </div>
+                     <a class="btn-floating halfway-fab waves-effect waves-light secondary-color-bg hide-on-small-only"><i class="material-icons">favorite</i></a>
+                   </div>
+                   <div class="card-content">
+                     <p class="title-release">Movie Cat</p>
+                     <p class="author-release">James Chapman</p>
+                       <div class="chip chip-comedy">Comédie</div>
+                   </div>
+                 </div>
+               </div>
 
-        <div class="col l2 s6 m4">
-          <div class="card hoverable">
-            <div class="card-image">
-              <img src="assets/img/comic-5.jpg">
+               <div class="col l2 s6 m4">
+                 <div class="card hoverable">
+                   <div class="card-image">
+                     <img src="assets/img/comic-5.jpg">
 
-              <a class="btn-floating halfway-fab waves-effect waves-light secondary-color-bg hide-on-small-only"><i class="material-icons">favorite</i></a>
-            </div>
-            <div class="card-content">
-              <p class="title-release">Franken's Village</p>
-              <p class="author-release">Cheolbum</p>
-                <div class="chip chip-horror">Horreur</div> <div class="chip chip-romance">Romance</div>
-            </div>
-          </div>
-        </div>
+                     <a class="btn-floating halfway-fab waves-effect waves-light secondary-color-bg hide-on-small-only"><i class="material-icons">favorite</i></a>
+                   </div>
+                   <div class="card-content">
+                     <p class="title-release">Franken's Village</p>
+                     <p class="author-release">Cheolbum</p>
+                       <div class="chip chip-horror">Horreur</div> <div class="chip chip-romance">Romance</div>
+                   </div>
+                 </div>
+               </div>
 
-        <div class="col l2 s6 m4">
-          <div class="card hoverable">
-            <div class="card-image">
-              <img src="assets/img/comic-6.jpg">
+               <div class="col l2 s6 m4">
+                 <div class="card hoverable">
+                   <div class="card-image">
+                     <img src="assets/img/comic-6.jpg">
 
-              <a class="btn-floating halfway-fab waves-effect waves-light secondary-color-bg hide-on-small-only"><i class="material-icons">favorite</i></a>
-            </div>
-            <div class="card-content">
-              <p class="title-release">Adonis</p>
-              <p class="author-release">Team Adonis</p>
-                <div class="chip chip-fantasy">Fantastique</div>
-            </div>
-          </div>
-        </div>
-      </div>
-  </div>
+                     <a class="btn-floating halfway-fab waves-effect waves-light secondary-color-bg hide-on-small-only"><i class="material-icons">favorite</i></a>
+                   </div>
+                   <div class="card-content">
+                     <p class="title-release">Adonis</p>
+                     <p class="author-release">Team Adonis</p>
+                       <div class="chip chip-fantasy">Fantastique</div>
+                   </div>
+                 </div>
+               </div>
+             </div>
+
+     </div>
+   </div>
 </section>
+
 
 <div class="gap"></div>
 
@@ -313,16 +294,17 @@
 
 
 
-<section>
-    <div class="parallax-container">
-     <div class="parallax"><img src="assets/img/bg-rejoindre.jpg"></div>
-     <div class="container">
-       <h2 class="black-text">Tu veux publier une histoire ?</h2>
-       <p class="black-text" style="max-width: 600px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+<section id="rejoindre" style="background: url('assets/img/bg-rejoindre.jpg'); background-size: cover; height: auto; padding: 20px; background-position: center;">
 
-       <p><a class="btn waves-effect waves-light black white-text">En savoir plus</a></p>
+     <div class="container">
+       <h2 class="black-text">êtes-vous un créateur ?</h2>
+       <p class="black-text" style="max-width: 600px;">Vous pouvez créer toutes sortes d’histoire, promouvoir votre série en choisissant parmis une selection de genres et ajouter vos propres tag.</p>
+
+<p class="black-text" style="max-width: 600px;">N’attendez plus, créez votre atmostrip !</p>
+
+       <p><a class="btn waves-effect waves-light black white-text">Publiez votre série</a></p>
      </div>
-   </div>
+
 </section>
 
 
