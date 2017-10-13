@@ -52,7 +52,7 @@
     </div>
 
 
-    <div class="carousel-item red white-text" href="#one!" style="background: url('assets/img/bg-business-fish.jpg'); background-size: cover; background-position: top;">
+    <div class="carousel-item red white-text" href="#two!" style="background: url('assets/img/bg-business-fish.jpg'); background-size: cover; background-position: top;">
 
         <div class="container">
           <div class="row">
