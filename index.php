@@ -325,7 +325,7 @@
     <a href="#"><span class="socicon-youtube"></span></a>
 
 <p><a href="#">AIDE</a> <a href="#">CONTACT</a> <a href="#">PUBLIER</a> <a href="#">COMICS</a> <a href="#">ROMANS</a></p>
-<p>© 2017 Atmostrip. Made by Bensafidine Walid.</p>
+<p>© 2017 Atmostrip. Made by MadClouds Studio.</p>
 
     </div>
 </footer>
